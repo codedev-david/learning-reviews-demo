@@ -3,7 +3,7 @@
 import { TYPES } from './reviews.js';
 
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-const LABELS = { article: 'Article', book: 'Book', video: 'Video', course: 'Course', podcast: 'Podcast' };
+const LABELS = { article: 'Article', book: 'Book', video: 'Video', course: 'Course', podcast: 'Podcast', talk: 'Talk' };
 
 export function escapeHtml(value) {
   const entities = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };

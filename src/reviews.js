@@ -4,7 +4,7 @@
 import { readdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
 
-export const TYPES = ['article', 'book', 'video', 'course', 'podcast'];
+export const TYPES = ['article', 'book', 'video', 'course', 'podcast', 'talk'];
 export const FIELDS = ['title', 'type', 'url', 'creator', 'rating', 'reviewer', 'date', 'review', 'tags'];
 const OPTIONAL = new Set(['tags']);
 const LENGTHS = { title: [3, 120], creator: [2, 80], reviewer: [2, 40], review: [20, 1500] };

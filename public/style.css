@@ -11,6 +11,7 @@
   --video: #ffebe9;
   --course: #dafbe1;
   --podcast: #fff8c5;
+  --talk: #ffeff7;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,6 +28,7 @@
     --video: #67060c;
     --course: #033a16;
     --podcast: #4b2900;
+    --talk: #4f0c2e;
   }
 }
 
@@ -163,6 +165,7 @@ main.reviews {
 .type-video { background: var(--video); }
 .type-course { background: var(--course); }
 .type-podcast { background: var(--podcast); }
+.type-talk { background: var(--talk); }
 
 .stars {
   color: var(--star);

@@ -47,7 +47,7 @@ describe('validateReview', () => {
   });
 
   it('rejects an unknown type and lists the allowed ones', () => {
-    assert.match(messagesFor({ type: 'blog' })[0], /"type" must be one of: article, book, video, course, podcast/);
+    assert.match(messagesFor({ type: 'blog' })[0], /"type" must be one of: article, book, video, course, podcast, talk/);
   });
 
   it('rejects a link that is not https', () => {
