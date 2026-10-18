@@ -2,20 +2,16 @@
 
 [![Pipeline](https://github.com/codedev-david/learning-reviews-demo/actions/workflows/pipeline.yml/badge.svg)](https://github.com/codedev-david/learning-reviews-demo/actions/workflows/pipeline.yml)
 
-A small website where you review the articles, books, videos, courses and podcasts you learned from.
-It is the starter project for the **GitHub Actions project tutorial**: you build a real pipeline that
-**tests** every change, **builds** the site and **deploys** it to GitHub Pages, one step at a time.
+**This is the finished example of the Learning Reviews project:** a small website where you review the articles,
+books, videos, courses and podcasts you learned from, tested, built and deployed by its own GitHub Actions pipeline.
+See it live at https://codedev-david.github.io/learning-reviews-demo/, and look at the **Actions** tab and the closed
+pull requests to see every step of the project, including the runs that fail on purpose.
 
-**Start here: [TUTORIAL.md](TUTORIAL.md)** walks you through the whole project, step by step.
+## Do the project yourself
 
-## Get your own copy
-
-1. Sign in to GitHub.
-2. At the top of this page, click **Use this template**, then **Create a new repository**.
-3. Keep yourself as the **Owner**, name the repository `learning-reviews`, choose **Public**, and click
-   **Create repository**.
-
-The tutorial explains why a copy made from a template is easier to work with here than a fork.
+Start from the template, not from this repository: open
+[codedev-david/learning-reviews](https://github.com/codedev-david/learning-reviews), click **Use this template**,
+and follow its **TUTORIAL.md**, step by step.
 
 ## What is in the project
 
