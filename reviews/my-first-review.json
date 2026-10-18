@@ -3,7 +3,7 @@
   "type": "article",
   "url": "https://docs.github.com/en/actions/get-started/quickstart",
   "creator": "GitHub Docs",
-  "rating": 6,
+  "rating": 4,
   "reviewer": "Sam",
   "date": "2026-10-17",
   "review": "Builds a first workflow in about five minutes and shows where to find its run and its log. A good first read before writing a real pipeline.",
